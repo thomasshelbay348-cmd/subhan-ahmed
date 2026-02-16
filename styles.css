@@ -1,0 +1,28 @@
+/* styles.css - external stylesheet example */
+body {
+  background: #f7fafc;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+}
+
+.container {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background: #ffffff;
+  max-width: 600px;
+}
+
+h1 {
+  color: #2b6cb0;
+  font-size: 2rem;
+}
+
+.internal {
+  color: #6b46c1;
+  font-weight: 600;
+}
+
+/* Utility class example */
+.muted { color: #718096; }
