@@ -1,63 +1,25 @@
-h3{
-  color: red;
-}
-.box{
-  height: 200px;
-  background: blue;
-}
-.box1{
-  float: left;
-  height: 50px;
-  width: 50px;
-  background-color: rgb(2, 0, 128);
-}
-.box2{
-  line-height: 100px;
-  float: right;
-  height: 100px;
-  width: 80px;
-  background-color: rgb(0, 128, 58);
-}
-h4{
-  background-color: rgba(180, 116, 43, 0.822);
-  clear: both; 
-}
- nav{
-  background-color: gray;
-   height: 20px; 
-  /* left: 20px; */
-  top: 0px;
-  /* position: relative;*/ 
-  position: sticky;
-}  
-
 .nav{
-  height: 80px;
-  background-color: gainsboro;
+ height: 80px;
+ background-color: rgb(154, 212, 208); 
 }
-.nav h1{
+.nav img{
   float: left;
-  line-height: 80px;
-  margin-left: 170px;
+  margin-left: 100px;
+  margin-top: 15px;
 }
 .nav ul{
   float: right;
-  list-style-type: none;
-  
   margin-right: 160px;
-}
-.nav ul li{
-  float: left;
-  line-height: 80px;
-  margin: 0 10px;
+  margin-top: 20px;
+}.nav ul li{
+  display: inline-block;
+  margin-left: 20px;
 }
 .nav ul li a{
   text-decoration: none;
   color: black;
-  font-weight: bolder;
-
 }
 .nav ul li a:hover{
-    color: tomato;
-
+  color: blueviolet;
 }
+
