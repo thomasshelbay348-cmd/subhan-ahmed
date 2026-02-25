@@ -1,28 +1,63 @@
-/* styles.css - external stylesheet example */
-body {
-  background: #f7fafc;
-  margin: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #1a202c;
+h3{
+  color: red;
 }
-
-.container {
-  padding: 1rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
-  background: #ffffff;
-  max-width: 600px;
+.box{
+  height: 200px;
+  background: blue;
 }
-
-h1 {
-  color: #2b6cb0;
-  font-size: 2rem;
+.box1{
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(2, 0, 128);
 }
-
-.internal {
-  color: #6b46c1;
-  font-weight: 600;
+.box2{
+  line-height: 100px;
+  float: right;
+  height: 100px;
+  width: 80px;
+  background-color: rgb(0, 128, 58);
 }
+h4{
+  background-color: rgba(180, 116, 43, 0.822);
+  clear: both; 
+}
+ nav{
+  background-color: gray;
+   height: 20px; 
+  /* left: 20px; */
+  top: 0px;
+  /* position: relative;*/ 
+  position: sticky;
+}  
 
-/* Utility class example */
-.muted { color: #718096; }
+.nav{
+  height: 80px;
+  background-color: gainsboro;
+}
+.nav h1{
+  float: left;
+  line-height: 80px;
+  margin-left: 170px;
+}
+.nav ul{
+  float: right;
+  list-style-type: none;
+  
+  margin-right: 160px;
+}
+.nav ul li{
+  float: left;
+  line-height: 80px;
+  margin: 0 10px;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
+}
+.nav ul li a:hover{
+    color: tomato;
+
+}
