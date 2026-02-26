@@ -1,6 +1,8 @@
+*{ margin: 0;} 
 .nav{
- height: 80px;
- background-color: rgb(154, 212, 208); 
+ height: 10vh;
+ background-color: blueviolet; 
+ box-shadow: 1px 3px 5px;
 }
 .nav img{
   float: left;
@@ -21,4 +23,37 @@
 }
 .nav ul li a:hover{
   color: blueviolet;
+}
+.nav ul li a:active{
+  color: greenyellow;
+}
+.nav ul li a:visited{
+  color: white;
+}
+
+.content{
+  clear: both;
+  background-color: white;
+  /* height: 515px; */
+  height: 70vh;
+}
+.card1 , .card2{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-top: 25vh;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px ;
+}
+.card1{
+  float: left;
+  margin-left: 176px;
+}
+.card2{
+  float: right;
+  margin-right: 176px;
+}
+.footer{
+  background-color: black;
+  height: 18vh;
 }
