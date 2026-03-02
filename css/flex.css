@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   }   
+.flex{
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+    /* justify-content: safe;
+    justify-content: space-between;
+    justify-content: start;
+    justify-content: stretch; */
+     height: auto;
+}
+.item{
+    background-color: aqua;
+
+}

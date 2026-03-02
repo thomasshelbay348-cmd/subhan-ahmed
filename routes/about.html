@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{margin: 0;}
+.card{
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 100;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.img{
+    min-width: 200px;
+    min-height: 600px;
+    border: 3px solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assests/tecduild.png);
+    line-height: 500px;
+    /*background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80'); */
+    /* opacity: 0.5; */
+    background-size: cover;
+}
+    </style>
+</head>
+<body>
+    <!-- <div class="card">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div> -->
+    <div class="img"> 
+        <h1 style="color: blue; text-align: center;">hello world</h1>
+    </div>
+</body>
+</html>
